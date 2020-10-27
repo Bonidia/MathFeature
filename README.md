@@ -26,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae lorem luctus, 
 
 ## Authors
 
-* Robson Parmezan Bonidia, André Carlos Ponce de Leon Ferreira de Carvalho, and Danilo Sipoli Sanches.
+* Robson Parmezan Bonidia, Danilo Sipoli Sanches, and André Carlos Ponce de Leon Ferreira de Carvalho.
 
 * **Correspondence:** robservidor@gmail.com
 
