@@ -46,7 +46,7 @@ Where:
 $ python3.7 preprocessing/preprocessing.py -i dataset.fasta -o preprocessing.fasta 
 ```
 
-## Mapping Numerical and Fourier Transform
+## Numerical Mapping and Fourier Transform
 
 To generate features based in a Fourier approach, we apply the Discrete Fourier Transform (DFT), widely used for digital image and signal processing (here GSP). To calculate DFT, we used the Fast Fourier Transform (FFT). However, to use GSP techniques, it is necessary to apply a numeric representation for the transformation or mapping of genomic data. Thereby, we study 7 numerical mapping techniques (see our pipeline in this [article](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2)). To use this model, follow the example below:
 
