@@ -1,7 +1,7 @@
 ![Python](https://img.shields.io/badge/python-v3.7-blue)
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/status-up-brightgreen)
 
 <h1 align="center">
   <img src="https://github.com/Bonidia/MathFeature/blob/master/img/MathFeature.png" alt="MathFeature" width="350">
@@ -16,7 +16,6 @@
   <a href="#dependencies">Dependencies</a> •
   <a href="#installing-dependencies-and-package">Installing</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#license">License</a> •
   <a href="#citation">Citation</a> 
 </p>
 
@@ -81,11 +80,6 @@ We proposed an open-source Python package called MathFeature, that implements fe
 * [Shannon and Tsallis Entropy](https://github.com/Bonidia/MathFeature/blob/master/documentation/entropy.md)
 * [Complex Networks](https://github.com/Bonidia/MathFeature/blob/master/documentation/graphs.md)
 * [Only k-mer](https://github.com/Bonidia/MathFeature/blob/master/documentation/kmer.md)
-
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
 
 
 ## Citation
