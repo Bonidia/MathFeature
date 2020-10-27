@@ -56,24 +56,28 @@ To use this model, follow the example below:
 ```sh
 Access folder: $ cd MathFeature
  
-To run the code (Example): $ python3.7 methods/ChaosGameTheory.py -n number of datasets/labels -o output -r approach
+To run the code (Example): $ python3.7 methods/k-mers.py -i input -o output -l label -k kmer -seq DNA/RNA
 
 
 Where:
 
 -h = help
 
--n = number of datasets/labels
+-i = Input - Fasta format file, e.g., test.fasta
 
 -o = output - CSV format file, e.g., test.csv
 
--r = approach, e.g., 1 = Binary, 2 = Z-curve, 3 = Real, 4 = Integer.
+-l = Label - Dataset Label, e.g., lncRNA, mRNA, sncRNA
+
+-k = kmer - Range of k-mer, E.g., 1-mer (1) or 2-mer (1, 2)
+
+-seq = type of sequence, 1 = DNA and 2 = RNA'
 ```
 
 **Running:**
 
 ```sh
-$ python3.7 methods/ChaosGameTheory.py -n 2 -o dataset.csv -r 2
+$ python3.7 methods/k-mers.py -i sequence.fasta -o dataset.csv -l DNA -k 5 -seq 1
 ```
 
 **Note** Input sequences for feature extraction must be in fasta format.
