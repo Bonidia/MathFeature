@@ -47,7 +47,7 @@ $ python3.7 preprocessing/preprocessing.py -i dataset.fasta -o preprocessing.fas
 ```
 
 
-## Chaos Game Representation
+## k-mer Scheme
 
 To use this model, follow the example below:
 
