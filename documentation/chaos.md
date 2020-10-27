@@ -67,13 +67,13 @@ Where:
 
 -o = output - CSV format file, e.g., test.csv
 
--r = approach, e.g., 1 = Binary, 2 = Z-curve, 3 = Real, 4 = Integer.
+-r = approach, e.g., 1 = Classifical Chaos Game Representation, 2 = Frequency Chaos Game Representation, 3 = Chaos Game Signal with Classifical Representation, 4 = Chaos Game Signal with Frequency.
 ```
 
 **Running:**
 
 ```sh
-$ python3.7 methods/ChaosGameTheory.py -n 2 -o dataset.csv -r 2
+$ python3.7 methods/ChaosGameTheory.py -n 2 -o dataset.csv -r 1
 ```
 
 **Note** Input sequences for feature extraction must be in fasta format.
