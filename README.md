@@ -81,6 +81,9 @@ We proposed an open-source Python package called MathFeature, that implements fe
 * [Complex Networks](https://github.com/Bonidia/MathFeature/blob/master/documentation/graphs.md)
 * [Only k-mer](https://github.com/Bonidia/MathFeature/blob/master/documentation/kmer.md)
 
+## Feature Selection
+
+If you want to apply feature selection techniques, visit our repository: https://github.com/Bonidia/FeatureSelection-FSRV.
 
 ## Citation
 
