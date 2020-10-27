@@ -28,8 +28,6 @@ Before executing any method in this package, it is necessary to run a pre-proces
 **Important:** This package only accepts sequence files in *Fasta* format as input to the methods.
 
 ```sh
-Access folder: $ cd FeatureExtraction
- 
 To run the tool (Example): $ python3.7 preprocessing/preprocessing.py -i input -o output
 
 
@@ -54,8 +52,6 @@ $ python3.7 preprocessing/preprocessing.py -i dataset.fasta -o preprocessing.fas
 To use this model, follow the example below:
 
 ```sh
-Access folder: $ cd MathFeature
- 
 To run the code (Example): $ python3.7 methods/k-mers.py -i input -o output -l label -k kmer -seq DNA/RNA
 
 
