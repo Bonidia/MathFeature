@@ -21,7 +21,7 @@
 
 <h1 align="center"></h1>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae lorem luctus, mattis ligula eget, dignissim ex. Nunc rutrum, mauris sit amet lacinia pellentesque, felis sem egestas nunc, sit amet mattis lacus velit vitae purus. Sed scelerisque bibendum metus, non aliquam neque dictum non. Aenean iaculis lobortis tempor. Donec pretium sem accumsan tellus tincidunt commodo. Proin egestas ante ligula, eget luctus erat scelerisque quis. Aenean venenatis gravida massa, id elementum lectus tempus quis. Duis maximus odio sit amet quam commodo sodales. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae lorem luctus, mattis ligula eget, dignissim ex. Nunc rutrum, mauris sit amet lacinia pellentesque, felis sem egestas nunc, sit amet mattis lacus velit vitae purus. Sed scelerisque bibendum metus, non aliquam neque dictum non. Aenean iaculis lobortis tempor. Donec pretium sem accumsan tellus tincidunt commodo. Proin egestas ante ligula, eget luctus erat scelerisque quis. Aenean venenatis gravida massa, id elementum lectus tempus quis. Duis maximus odio sit amet quam commodo sodales. Webpage: https://bonidia.github.io/MathFeature/.
 
 
 ## Authors
