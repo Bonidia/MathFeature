@@ -1,37 +1,92 @@
-## Welcome to GitHub Pages
+![Python](https://img.shields.io/badge/python-v3.7-blue)
+![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+![Status](https://img.shields.io/badge/status-up-brightgreen)
 
-You can use the [editor on GitHub](https://github.com/Bonidia/MathFeature/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<h1 align="center">
+  <img src="https://github.com/Bonidia/MathFeature/blob/master/img/MathFeature.png" alt="MathFeature" width="350">
+</h1>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<h4 align="center">Feature Extraction Package for Biological Sequences Based on Mathematical Approaches</h4>
 
-### Markdown
+<p align="center">
+  <a href="https://github.com/Bonidia/MathFeature">Home</a> •
+  <a href="#authors">Key Features</a> •
+  <a href="#list-of-files">List of files</a> •
+  <a href="#dependencies">Dependencies</a> •
+  <a href="#installing-dependencies-and-package">Installing</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#citation">Citation</a> 
+</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<h1 align="center"></h1>
 
-```markdown
-Syntax highlighted code block
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae lorem luctus, mattis ligula eget, dignissim ex. Nunc rutrum, mauris sit amet lacinia pellentesque, felis sem egestas nunc, sit amet mattis lacus velit vitae purus. Sed scelerisque bibendum metus, non aliquam neque dictum non. Aenean iaculis lobortis tempor. Donec pretium sem accumsan tellus tincidunt commodo. Proin egestas ante ligula, eget luctus erat scelerisque quis. Aenean venenatis gravida massa, id elementum lectus tempus quis. Duis maximus odio sit amet quam commodo sodales. 
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Authors
 
-1. Numbered
-2. List
+* Robson Parmezan Bonidia, Danilo Sipoli Sanches, and André Carlos Ponce de Leon Ferreira de Carvalho.
 
-**Bold** and _Italic_ and `Code` text
+* **Correspondence:** robservidor@gmail.com
 
-[Link](url) and ![Image](src)
+
+## Publication
+
+Submitted
+
+
+## List of files
+
+ - **examples:** Files of Example;
+ - **methods:** Main Files - Feature Extraction Models, e.g., Fourier, Numerical Mapping, Entropy, Complex Networks;
+ - **preprocessing:** Preprocessing Files;
+ - **README:** Documentation;
+ - **requirements:** Dependencies.
+
+
+## Dependencies
+
+- Python (>=3.7.3)
+- Biopython
+- Igraph
+- NumPy 
+- Pandas
+- SciPy
+
+
+## Installing dependencies and package
+
+It is important to note that we consider that the Python language is installed. Otherwise, access: https://www.python.org/downloads/release/python-375/.
+
+```sh
+$ git clone https://github.com/Bonidia/MathFeature.git MathFeature
+
+$ cd MathFeature
+
+$ pip3 install -r requirements.txt
+
+$ apt-get -y install python3-igraph
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## How to use
 
-### Jekyll Themes
+We proposed an open-source Python package called MathFeature, that implements feature extraction approaches using mathematical models, including 20 descriptors organized into five categories. To our best knowledge, MathFeature is the first package that computes biological sequence features based on various mathematical approaches. In this section, 5 feature extraction groups are available: **7** numerical mapping techniques, **7** numerical mapping techniques with Fourier transform, **3** techniques with game chaos, **2** techniques with Entropy, **1** with Complex Networks. Moreover, we provide some scripts for preprocessing.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Bonidia/MathFeature/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* [Preprocessing](https://github.com/Bonidia/MathFeature/blob/master/documentation/preprocessing.md)
+* [Numerical Mapping](https://github.com/Bonidia/MathFeature/blob/master/documentation/mapping.md)
+* [Chaos Game Representation](https://github.com/Bonidia/MathFeature/blob/master/documentation/chaos.md)
+* [Numerical Mapping and Fourier Transform](https://github.com/Bonidia/MathFeature/blob/master/documentation/fourier.md)
+* [Shannon and Tsallis Entropy](https://github.com/Bonidia/MathFeature/blob/master/documentation/entropy.md)
+* [Complex Networks](https://github.com/Bonidia/MathFeature/blob/master/documentation/graphs.md)
+* [Only k-mer](https://github.com/Bonidia/MathFeature/blob/master/documentation/kmer.md)
 
-### Support or Contact
+## Feature Selection
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you want to apply feature selection techniques, visit our repository: https://github.com/Bonidia/FeatureSelection-FSRV.
+
+## Citation
+
+If you use this code in a scientific publication, we would appreciate citations to the following paper:
+
+Submitted.
