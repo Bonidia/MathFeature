@@ -22,14 +22,8 @@ def check_files():
 
 
 def concatenate():
-	# data = pd.read_csv(dataset_names[0])
-	# is_header = not any(cell.isdigit() for cell in data.head(0))
-	# if is_header == True:
 	dataframes = pd.concat([pd.read_csv(f) for f in dataset_names])
 	dataframes.to_csv(foutput, index=False)
-	# else:
-		# dataframes = pd.concat([pd.read_csv(f, header=None) for f in dataset_names])
-		# dataframes.to_csv(foutput, index=False)
 	print("The files were concatenate")
 
 
