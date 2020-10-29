@@ -10,7 +10,7 @@
 <h4 align="center">Feature Extraction Package for Biological Sequences Based on Mathematical Approaches</h4>
 
 <p align="center">
-  <a href="https://github.com/Bonidia/MathFeature">Home</a> •
+  <a href="https://bonidia.github.io/MathFeature/">Home</a> •
   <a href="#authors">Key Features</a> •
   <a href="#list-of-files">List of files</a> •
   <a href="#dependencies">Dependencies</a> •
@@ -75,7 +75,7 @@ We proposed an open-source Python package called MathFeature, that implements fe
 
 * [Preprocessing](https://github.com/Bonidia/MathFeature/blob/master/documentation/preprocessing.md)
 * [Numerical Mapping](https://github.com/Bonidia/MathFeature/blob/master/documentation/mapping.md)
-* [Chaos Game Representation](https://github.com/Bonidia/MathFeature/blob/master/documentation/chaos.md)
+* [Chaos Game Representation](https://github.com/Bonidia/MathFeature/blob/gh-pages/chaos.md)
 * [Numerical Mapping and Fourier Transform](https://github.com/Bonidia/MathFeature/blob/master/documentation/fourier.md)
 * [Shannon and Tsallis Entropy](https://github.com/Bonidia/MathFeature/blob/master/documentation/entropy.md)
 * [Complex Networks](https://github.com/Bonidia/MathFeature/blob/master/documentation/graphs.md)
