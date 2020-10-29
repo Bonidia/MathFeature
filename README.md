@@ -57,7 +57,7 @@ Submitted
 
 ## Installing dependencies and package
 
-It is important to note that we consider that the Python language is installed. Otherwise, access [aqui](https://www.python.org/downloads/release/python-375/).
+It is important to note that we consider that the Python language is installed. Otherwise, access [here](https://www.python.org/downloads/release/python-375/).
 
 ```sh
 $ git clone https://github.com/Bonidia/MathFeature.git MathFeature
