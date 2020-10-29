@@ -128,7 +128,7 @@ Removes repeated sequences in a file. To use this script, follow the example bel
 **Important:** This package only accepts sequence files in *Fasta* format as input to the methods.
 
 ```sh
-To run the tool (Example): $ python3.7 preprocessing/remove_redundancy.py -i input -o output -p samples
+To run the tool (Example): $ python3.7 preprocessing/remove_redundancy.py -i input
 
 
 Where:
