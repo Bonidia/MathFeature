@@ -57,7 +57,7 @@ Submitted
 
 ## Installing dependencies and package
 
-It is important to note that we consider that the Python language is installed. Otherwise, access: https://www.python.org/downloads/release/python-375/.
+It is important to note that we consider that the Python language is installed. Otherwise, access [aqui](https://www.python.org/downloads/release/python-375/).
 
 ```sh
 $ git clone https://github.com/Bonidia/MathFeature.git MathFeature
@@ -83,7 +83,7 @@ We proposed an open-source Python package called MathFeature, that implements fe
 
 ## Feature Selection
 
-If you want to apply feature selection techniques, visit our repository: https://github.com/Bonidia/FeatureSelection-FSRV.
+If you want to apply feature selection techniques, visit our [repository](https://github.com/Bonidia/FeatureSelection-FSRV).
 
 ## Citation
 
