@@ -73,13 +73,13 @@ $ apt-get -y install python3-igraph
 
 We proposed an open-source Python package called MathFeature, that implements feature extraction approaches using mathematical models, including 20 descriptors organized into five categories. To our best knowledge, MathFeature is the first package that computes biological sequence features based on various mathematical approaches. In this section, 5 feature extraction groups are available: **7** numerical mapping techniques, **7** numerical mapping techniques with Fourier transform, **3** techniques with game chaos, **2** techniques with Entropy, **1** with Complex Networks. Moreover, we provide some scripts for preprocessing.
 
-* [Preprocessing](https://github.com/Bonidia/MathFeature/blob/master/documentation/preprocessing.md)
-* [Numerical Mapping](https://github.com/Bonidia/MathFeature/blob/master/documentation/mapping.md)
-* [Chaos Game Representation](https://github.com/Bonidia/MathFeature/blob/gh-pages/index-chaos.md)
-* [Numerical Mapping and Fourier Transform](https://github.com/Bonidia/MathFeature/blob/master/documentation/fourier.md)
+* [Preprocessing](preprocessing.md)
+* [Numerical Mapping](mapping.md)
+* [Chaos Game Representation](chaos.md)
+* [Numerical Mapping and Fourier Transform](fourier.md)
 * [Shannon and Tsallis Entropy](entropy.md)
-* [Complex Networks](https://github.com/Bonidia/MathFeature/blob/master/documentation/graphs.md)
-* [Only k-mer](https://github.com/Bonidia/MathFeature/blob/master/documentation/kmer.md)
+* [Complex Networks](graphs.md)
+* [Only k-mer](kmer.md)
 
 ## Feature Selection
 
