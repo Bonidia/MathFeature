@@ -77,7 +77,7 @@ We proposed an open-source Python package called MathFeature, that implements fe
 * [Numerical Mapping](https://github.com/Bonidia/MathFeature/blob/master/documentation/mapping.md)
 * [Chaos Game Representation](https://github.com/Bonidia/MathFeature/blob/gh-pages/index-chaos.md)
 * [Numerical Mapping and Fourier Transform](https://github.com/Bonidia/MathFeature/blob/master/documentation/fourier.md)
-* [Shannon and Tsallis Entropy](https://github.com/Bonidia/MathFeature/blob/gh-pages/entropy.md)
+* [Shannon and Tsallis Entropy](entropy.md)
 * [Complex Networks](https://github.com/Bonidia/MathFeature/blob/master/documentation/graphs.md)
 * [Only k-mer](https://github.com/Bonidia/MathFeature/blob/master/documentation/kmer.md)
 
