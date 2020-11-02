@@ -318,7 +318,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('-n', '--number', help='Fasta format file | Number of dataset or labels')
     parser.add_argument('-o', '--output', help='Csv format file | E.g., train.csv')
-    parser.add_argument('-r', '--approach', help='1 = Binary, 2 = Z-curve, 3 = Real, 4 = Integer')
+    parser.add_argument('-r', '--approach', help='1 = Classifical Chaos Game Representation, 2 = Frequency Chaos Game Representation, 3 = Chaos Game Signal with Classifical Representation, 4 = Chaos Game Signal with Frequency')
     args = parser.parse_args()
     n = int(args.number)
     foutput = str(args.output)
