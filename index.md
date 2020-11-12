@@ -15,6 +15,7 @@
   <a href="#list-of-files">List of files</a> •
   <a href="#dependencies">Dependencies</a> •
   <a href="#installing-dependencies-and-package">Installing</a> •
+  <a href="#list-of-descriptors">Descriptors</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#citation">Citation</a> 
 </p>
@@ -70,7 +71,7 @@ $ apt-get -y install python3-igraph
 ```
 ## List of Descriptors
 
-[Descriptors calculated by MathFeature for DNA, RNA, and Protein sequences.](descriptors.md)
+Descriptors calculated by MathFeature for DNA, RNA, and Protein sequences: [Click here.](https://github.com/Bonidia/MathFeature/blob/gh-pages/descriptors.md)
 
 ## How to use
 
