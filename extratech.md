@@ -4,26 +4,27 @@
 ![Status](https://img.shields.io/badge/status-up-brightgreen)
 
 <h1 align="center">
-  <img src="https://github.com/Bonidia/MathFeature/blob/master/img/MathFeature.png" alt="MathFeature" width="350">
+  <img src="img/MathFeature.png" alt="MathFeature" width="350">
 </h1>
 
 <h4 align="center">Feature Extraction Package for Biological Sequences Based on Mathematical Approaches</h4>
-	
+
 <p align="center">
-  <a href="https://github.com/Bonidia/MathFeature">Home</a> •
+  <a href="https://bonidia.github.io/MathFeature/">Home</a> •
   <a href="#authors">Key Features</a> •
   <a href="#list-of-files">List of files</a> •
   <a href="#dependencies">Dependencies</a> •
   <a href="#installing-dependencies-and-package">Installing</a> •
+  <a href="#list-of-descriptors">Descriptors</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#citation">Citation</a> 
 </p>
 
 <h1 align="center"></h1>
 
-## Other techniques
+## Preprocessing
 
-MathFeature also provides other techniques known in the literature: k-mer, Nucleic acid composition (NAC), Di-nucleotide composition (DNC), Tri-nucleotide composition (TNC).
+Before executing any method in this package, it is necessary to run a pre-processing script, to eliminate any noise from the sequences (e.g., other letters as: N, K ...). To use this script, follow the example below:
 
 **Important:** This package only accepts sequence files in *Fasta* format as input to the methods.
 
@@ -49,7 +50,7 @@ $ python3.7 preprocessing/preprocessing.py -i dataset.fasta -o preprocessing.fas
 
 ## Customizable k-mer, NAC, DNC, TNC
 
-To use this model, follow the example below:
+MathFeature also provides other techniques known in the literature: k-mer, Nucleic acid composition (NAC), Di-nucleotide composition (DNC), Tri-nucleotide composition (TNC). To use this model, follow the example below:
 
 ```sh
 To run the code (Example): $ python3.7 methods/ExtractionTechniques.py -i input -o output -l label -t technique -seq DNA/RNA
