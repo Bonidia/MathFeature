@@ -15,6 +15,7 @@
   <a href="#list-of-files">List of files</a> •
   <a href="#dependencies">Dependencies</a> •
   <a href="#installing-dependencies-and-package">Installing</a> •
+  <a href="#list-of-descriptors">Descriptors</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#citation">Citation</a> 
 </p>
@@ -28,7 +29,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae lorem luctus, 
 
 * Robson Parmezan Bonidia, Danilo Sipoli Sanches, and André Carlos Ponce de Leon Ferreira de Carvalho.
 
-* **Correspondence:** robservidor@gmail.com
+* **Correspondence:** rpbonidia@gmail.com
 
 
 ## Publication
@@ -69,17 +70,15 @@ $ pip3 install -r requirements.txt
 $ apt-get -y install python3-igraph
 ```
 
+## List of Descriptors
+
+Descriptors calculated by MathFeature for DNA, RNA, and Protein sequences: [Click here.](documentation/descriptors.md)
+
 ## How to use
 
-We proposed an open-source Python package called MathFeature, that implements feature extraction approaches using mathematical models, including 20 descriptors organized into five categories. To our best knowledge, MathFeature is the first package that computes biological sequence features based on various mathematical approaches. In this section, 5 feature extraction groups are available: **7** numerical mapping techniques, **7** numerical mapping techniques with Fourier transform, **3** techniques with game chaos, **2** techniques with Entropy, **1** with Complex Networks. Moreover, we provide some scripts for preprocessing.
+We proposed an open-source Python package called MathFeature, that implements feature extraction approaches using mathematical models, including 20 descriptors organized into five categories. To our best knowledge, MathFeature is the first package that computes biological sequence features based on various mathematical approaches. In this section, 5 feature extraction groups are available: **7** numerical mapping techniques, **7** numerical mapping techniques with Fourier transform, **3** techniques with game chaos, **2** techniques with Entropy, **1** with Complex Networks. Moreover, we provide some additional scripts for feature extraction and preprocessing.
 
-* [Preprocessing](https://github.com/Bonidia/MathFeature/blob/master/documentation/preprocessing.md)
-* [Numerical Mapping](https://github.com/Bonidia/MathFeature/blob/master/documentation/mapping.md)
-* [Chaos Game Representation](https://github.com/Bonidia/MathFeature/blob/master/documentation/chaos.md)
-* [Numerical Mapping and Fourier Transform](https://github.com/Bonidia/MathFeature/blob/master/documentation/fourier.md)
-* [Shannon and Tsallis Entropy](https://github.com/Bonidia/MathFeature/blob/master/documentation/entropy.md)
-* [Complex Networks](https://github.com/Bonidia/MathFeature/blob/master/documentation/graphs.md)
-* [Only k-mer](https://github.com/Bonidia/MathFeature/blob/master/documentation/kmer.md)
+See our [https://bonidia.github.io/MathFeature/].
 
 ## Feature Selection
 
