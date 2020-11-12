@@ -26,8 +26,8 @@
 Descriptors calculated by MathFeature for DNA, RNA, and Protein sequences.
 
 
-| Descriptor groups     | Descriptor                           | Dimension  | Sequence        | Example (Study with Application or Theory)                                     
-|    :---:              |  :---:                               |  :---:     |  :---:          |  :---:                                                                         
+| Descriptor groups     | Descriptor                           | Dimension  | Sequence        | Example (Study with Application or Theory)                                     |
+|    :---:              |  :---:                               |  :---:     |  :---:          |  :---:                                                                         |
 |                                                                                                                                                                              |
 |                       | Binary                               | L * 4      | DNA/RNA         | [Ref 1](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2) - [Ref 2](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.68.3805) |
 |                       | Z-curve                              | L * 3      | DNA/RNA         | [Ref 1](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2) - [Ref 2](https://www.tandfonline.com/doi/abs/10.1080/07391102.1994.10508031)|
