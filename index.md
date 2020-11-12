@@ -79,6 +79,13 @@ We proposed an open-source Python package called MathFeature, that implements fe
 
 - [Preprocessing](preprocessing.md)
 - [Numerical Mapping - DNA/RNA](mapping.md)
+    - [Binary](mapping.md)
+    - [Z-curve](mapping.md)
+    - [Real](mapping.md)
+    - [Integer](mapping.md)
+    - [EIIP](mapping.md)
+    - [Complex Number](mapping.md)
+    - [Atomic Number](mapping.md)
 - [Chaos Game Representation - DNA/RNA](chaos.md)
 - [Numerical Mapping and Fourier Transform - DNA/RNA](fourier.md)
 - [Shannon and Tsallis Entropy - DNA/RNA/Protein](entropy.md)
