@@ -68,10 +68,13 @@ $ pip3 install -r requirements.txt
 
 $ apt-get -y install python3-igraph
 ```
+## List of Descriptors
+
+[Descriptors calculated by MathFeature for DNA, RNA, and Protein sequences.](descriptors.md)
 
 ## How to use
 
-We proposed an open-source Python package called MathFeature, that implements feature extraction approaches using mathematical models, including 20 descriptors organized into five categories. To our best knowledge, MathFeature is the first package that computes biological sequence features based on various mathematical approaches. In this section, 5 feature extraction groups are available: **7** numerical mapping techniques, **7** numerical mapping techniques with Fourier transform, **3** techniques with game chaos, **2** techniques with Entropy, **1** with Complex Networks. Moreover, we provide some scripts for preprocessing.
+We proposed an open-source Python package called MathFeature, that implements feature extraction approaches using mathematical models, including 20 descriptors organized into five categories. To our best knowledge, MathFeature is the first package that computes biological sequence features based on various mathematical approaches. In this section, 5 feature extraction groups are available: **7** numerical mapping techniques, **7** numerical mapping techniques with Fourier transform, **3** techniques with game chaos, **2** techniques with Entropy, **1** with Complex Networks. Moreover, we provide some additional scripts for feature extraction and preprocessing.
 
 * [Preprocessing](preprocessing.md)
 * [Numerical Mapping](mapping.md)
@@ -79,7 +82,7 @@ We proposed an open-source Python package called MathFeature, that implements fe
 * [Numerical Mapping and Fourier Transform](fourier.md)
 * [Shannon and Tsallis Entropy](entropy.md)
 * [Complex Networks](graphs.md)
-* [Only k-mer](kmer.md)
+* [Other techniques]()
 
 ## Feature Selection
 
