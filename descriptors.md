@@ -4,13 +4,13 @@
 ![Status](https://img.shields.io/badge/status-up-brightgreen)
 
 <h1 align="center">
-  <img src="https://github.com/Bonidia/MathFeature/blob/master/img/MathFeature.png" alt="MathFeature" width="350">
+  <img src="img/MathFeature.png" alt="MathFeature" width="350">
 </h1>
 
 <h4 align="center">Feature Extraction Package for Biological Sequences Based on Mathematical Approaches</h4>
 	
 <p align="center">
-  <a href="https://github.com/Bonidia/MathFeature">Home</a> •
+  <a href="https://bonidia.github.io/MathFeature/">Home</a> •
   <a href="#authors">Key Features</a> •
   <a href="#list-of-files">List of files</a> •
   <a href="#dependencies">Dependencies</a> •
