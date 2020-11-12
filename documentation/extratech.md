@@ -21,9 +21,9 @@
 
 <h1 align="center"></h1>
 
-## Other techniques
+## Preprocessing
 
-MathFeature also provides other techniques known in the literature: k-mer, Nucleic acid composition (NAC), Di-nucleotide composition (DNC), Tri-nucleotide composition (TNC).
+Before executing any method in this package, it is necessary to run a pre-processing script, to eliminate any noise from the sequences (e.g., other letters as: N, K ...). To use this script, follow the example below:
 
 **Important:** This package only accepts sequence files in *Fasta* format as input to the methods.
 
@@ -49,7 +49,7 @@ $ python3.7 preprocessing/preprocessing.py -i dataset.fasta -o preprocessing.fas
 
 ## Customizable k-mer, NAC, DNC, TNC
 
-To use this model, follow the example below:
+MathFeature also provides other techniques known in the literature: k-mer, Nucleic acid composition (NAC), Di-nucleotide composition (DNC), Tri-nucleotide composition (TNC). To use this model, follow the example below:
 
 ```sh
 To run the code (Example): $ python3.7 methods/ExtractionTechniques.py -i input -o output -l label -t technique -seq DNA/RNA
