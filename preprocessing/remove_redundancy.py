@@ -18,11 +18,11 @@ def remove_equal_sequences(data):
         if seq in dataset.values():
             print("Removed Equal Sequences: %s" % (name))
         else:
-        	dataset[name] = seq
-        	arq.write(">" + name)
-        	arq.write("\n")
-        	arq.write(str(seq))
-        	arq.write("\n")
+            dataset[name] = seq
+            arq.write(">" + name)
+            arq.write("\n")
+            arq.write(str(seq))
+            arq.write("\n")
     return
 
 
