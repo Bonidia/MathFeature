@@ -10,7 +10,7 @@ from Bio import SeqIO
 
 def remove_equal_sequences(data):
     dataset = {}
-    arq = open("prep_" + data, 'a')
+    arq = open("prep_dataset.fasta", 'a')
     print("Dataset: " + data)
     for seq_record in SeqIO.parse(data, "fasta"):
         name = seq_record.name
