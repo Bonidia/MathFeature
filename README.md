@@ -22,14 +22,14 @@
 
 <h1 align="center"></h1>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae lorem luctus, mattis ligula eget, dignissim ex. Nunc rutrum, mauris sit amet lacinia pellentesque, felis sem egestas nunc, sit amet mattis lacus velit vitae purus. Sed scelerisque bibendum metus, non aliquam neque dictum non. Aenean iaculis lobortis tempor. Donec pretium sem accumsan tellus tincidunt commodo. Proin egestas ante ligula, eget luctus erat scelerisque quis. Aenean venenatis gravida massa, id elementum lectus tempus quis. Duis maximus odio sit amet quam commodo sodales. Webpage: https://bonidia.github.io/MathFeature/.
+Machine learning algorithms have been very successfully applied to extract new and relevant knowledge from biological sequences. However, the predictive performance of these algorithms is largely affected by how the sequences are represented. Thereby, the main challenge is how to numerically represent a biological sequence in a numeric vector with an efficient mathematical expression. Several feature extraction techniques have been proposed for biological sequences, where most of them are available in feature extraction packages. However, there are relevant approaches that are not available in existing packages, techniques based on mathematical descriptors, e.g., Fourier, entropy, and graphs. Therefore, this paper presents a new package, named MathFeature, which implements mathematical descriptors able to extract relevant information from biological sequences. MathFeature provides 20 approaches based on several studies found in the literature, e.g., multiple numeric mappings, genomic signal processing, chaos game theory, entropy, and complex networks. MathFeature also allows the extraction of alternative features, complementing the existing packages.
 
 
 ## Authors
 
 * Robson Parmezan Bonidia, Danilo Sipoli Sanches, and André Carlos Ponce de Leon Ferreira de Carvalho.
 
-* **Correspondence:** rpbonidia@gmail.com
+* **Correspondence:** rpbonidia@gmail.com or bonidia@usp.br
 
 
 ## Publication
