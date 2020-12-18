@@ -49,7 +49,7 @@ $ python3.7 preprocessing/preprocessing.py -i dataset.fasta -o preprocessing.fas
 
 ## Numerical Mapping 
 
-This method generates a numerical mapping of all sequence. We advise to use Deep Learning, Neural Networks or SVM for classification. Essentially, we provide 7 mappings. The theory can be consulted in this [article](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2). Nevertheless, this method will generate a vector with the size of the largest sequence. We developed a code that applies everything automatically. Therefore, it is necessary to pass all the classes/labels that will form the dataset. Thereby. to use this model, follow the example below:
+This method generates a numerical mapping of all sequence. Essentially, we provide 7 mappings. The theory can be consulted in this [article](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2). Nevertheless, this method will generate a vector with the size of the largest sequence. We developed a code that applies everything automatically. Therefore, it is necessary to pass all the classes/labels that will form the dataset. Thereby. to use this model, follow the example below:
 
 ```sh 
 To run the code (Example): $ python3.7 methods/MappingClass.py -n number of datasets/labels -o output -r representation
