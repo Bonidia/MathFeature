@@ -7,7 +7,7 @@
   <img src="https://github.com/Bonidia/MathFeature/blob/master/img/MathFeature.png" alt="MathFeature" width="350">
 </h1>
 
-<h4 align="center">Feature Extraction Package for Biological Sequences Based on Mathematical Approaches</h4>
+<h4 align="center">Feature Extraction Package for Biological Sequences Based on Mathematical Descriptors</h4>
 	
 <p align="center">
   <a href="https://github.com/Bonidia/MathFeature">Home</a> •
