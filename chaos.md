@@ -63,7 +63,7 @@ Where:
 
 -o = output - CSV format file, e.g., test.csv
 
--r = approach, e.g., 1 = Classifical Chaos Game Representation, 2 = Frequency Chaos Game Representation, 3 = Chaos Game Signal with Classifical Representation, 4 = Chaos Game Signal with Frequency.
+-r = approach, e.g., 1 = Classic Chaos Game Representation, 2 = Frequency Chaos Game Representation, 3 = Chaos Game Signal with Classic Representation, 4 = Chaos Game Signal with Frequency.
 ```
 
 **Running:**
