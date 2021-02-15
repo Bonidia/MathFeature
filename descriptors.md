@@ -49,17 +49,15 @@ Descriptors calculated by MathFeature for DNA, RNA, and Protein sequences.
 |                       | Complex Networks (different k-mers)  | 12 * t * k | DNA/RNA/Protein | [Ref 1](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2) - [Ref 2](https://doi.org/10.1093/nar/gky462) |
 |                                                                                                                                                                              |
 |                       | Basic k-mer                          | 4^k        | DNA/RNA         | [Ref 1](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2)   | 
-|                       | Customizable k-mer                   | 4^k        | DNA/RNA         |                                                                                |			
-|                       | Nucleic acid composition (NAC)       | 4          | DNA/RNA         | [Ref 1](https://doi.org/10.1016/j.cmpb.2017.05.008)                            |
-|                       | Di-nucleotide composition (DNC)      | 16         | DNA/RNA         | [Ref 1](https://doi.org/10.1016/j.cmpb.2017.05.008)                            |
+|                       | Customizable k-mer                   | 4^k        | DNA/RNA         |                                                                                
+|                       | Nucleic acid composition (NAC)       | 4          | DNA/RNA         | [Ref 1](https://doi.org/10.1016/j.cmpb.2017.05.008)                            
+|                       | Di-nucleotide composition (DNC)      | 16         | DNA/RNA         | [Ref 1](https://doi.org/10.1016/j.cmpb.2017.05.008)                            
 |                       | Tri-nucleotide composition (TNC)     | 64         | DNA/RNA         | [Ref 1](https://doi.org/10.1016/j.cmpb.2017.05.008) 
 |                       | ORF Features or Coding Features      | 10         | DNA/RNA         | [Ref 1](https://doi.org/10.1093/bib/bbab011) - [Ref 2](https://www.nature.com/articles/srep34838) |
 |                       | Fickett score                        | 2          | DNA/RNA         | [Ref 1](https://academic.oup.com/nar/article/41/6/e74/2902455)
 |                       | Pseudo K-tuple nucleotidecomposition | -          | DNA/RNA         | [Ref 1](https://doi.org/10.1016/j.ab.2014.04.001)
-|
-| **Other techniques**  | Accumulated Nucleotide Frequency-ANF | L          | DNA/RNA/Protein | [Ref 1](https://www.nature.com/articles/srep13859)                           |
+| **Other techniques**  | Accumulated Nucleotide Frequency-ANF | L          | DNA/RNA/Protein | [Ref 1](https://www.nature.com/articles/srep13859)                           
 |                       | ANF with Fourier                     | 19         | DNA/RNA/Protein |   
-|
 | 			| Xmer k-Spaced Ymer Composition Frequency (kGap)   | 4^X * 4^Y or 20^X * 20^Y  | DNA/RNA/Protein | [Ref 1](https://doi.org/10.3389/fbioe.2020.00134) - [Ref 2](https://doi.org/10.1093/bioinformatics/btz165) |  
 |                       | Amino acid composition (AAC)         | 20         | Protein         | [Ref 1](https://doi.org/10.3389/fcell.2020.578901)                             
 |                       | Dipeptide composition (DPC)          | 400        | Protein         | [Ref 1](https://doi.org/10.3389/fcell.2020.578901)                             
