@@ -74,7 +74,7 @@ Descriptors calculated by MathFeature for DNA, RNA, and Protein sequences: [Clic
 
 ## How to use
 
-We proposed an open-source Python package called MathFeature, that implements feature extraction approaches using mathematical features, including 20 descriptors organized into five categories. To our best knowledge, MathFeature is the first package that computes biological sequence features based on various mathematical descriptors. In this section, 5 feature extraction groups are available: **7** numerical mapping techniques, **7** numerical mapping techniques with Fourier transform, **3** techniques with game chaos, **2** techniques with Entropy, **1** with Complex Networks. Moreover, we provide some additional scripts for feature extraction and preprocessing.
+We proposed an open-source Python package called MathFeature, that implements feature extraction approaches using mathematical features, including 20 descriptors organized into five categories. To our best knowledge, MathFeature is the first package that computes biological sequence features based on various mathematical descriptors. In this section, **5** feature extraction groups are available: **(1)** numerical mapping techniques, **(2)** numerical mapping techniques with Fourier transform, **(3)** techniques with game chaos, **(4)** techniques with Entropy, **(5)** techniques with complex networks. Furthermore, we provide additional scripts for feature extraction and preprocessing.
 
 - [Preprocessing](preprocessing.md)
 - [Numerical Mapping - DNA/RNA](mapping.md)
@@ -85,8 +85,14 @@ We proposed an open-source Python package called MathFeature, that implements fe
     - [EIIP](mapping.md)
     - [Complex Number](mapping.md)
     - [Atomic Number](mapping.md)
+- [Numerical Mapping - Protein](mapping-protein.md)
+    - [Integer](mapping-protein.md)
+    - [EIIP](mapping-protein.md)
+    - [Accumulated Nucleotide Frequency - ANF](mapping-protein.md)
+    - [Kmer Frequency Mapping](mapping-protein.md)
 - [Chaos Game Representation - DNA/RNA](chaos.md)
 - [Numerical Mapping and Fourier Transform - DNA/RNA](fourier.md)
+- [Numerical Mapping and Fourier Transform - Protein](fourier-protein.md)
 - [Shannon and Tsallis Entropy - DNA/RNA/Protein](entropy.md)
 - [Complex Networks - DNA/RNA/Protein](graphs.md)
 - [Other techniques - DNA/RNA]()
@@ -97,6 +103,10 @@ We proposed an open-source Python package called MathFeature, that implements fe
     - [Tri-nucleotide composition (TNC)](extratech.md)
     - [Accumulated Nucleotide Frequency - ANF](ANF.md)
     - [Accumulated Nucleotide Frequency with Fourier](ANF.md)
+    - [ORF Features or Coding Features](ORF.md)
+    - [Fickett score](Fickett.md)
+    - [Pseudo K-tuple nucleotide composition](pseknc.md)
+    - [Xmer k-Spaced Ymer Composition Frequency (kGap)](kgap.md)
 - [Other techniques - Protein]()
     - [Amino acid composition (AAC)](extratech-protein.md)
     - [Dipeptide composition (DPC)](extratech-protein.md)
