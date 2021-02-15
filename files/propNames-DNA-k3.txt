@@ -1,0 +1,12 @@
+Bendability-DNAse
+Bendability-consensus
+Trinucleotide GC Content
+Nucleosome positioning
+Consensus_roll
+Consensus_Rigid
+Dnase I
+Dnase I-Rigid
+MW-Daltons
+MW-kg
+Nucleosome
+Nucleosome-Rigid
