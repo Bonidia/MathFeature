@@ -21,32 +21,6 @@
 
 <h1 align="center"></h1>
 
-## Preprocessing
-
-Before executing any method in this package, it is necessary to run a pre-processing script, to eliminate any noise from the sequences (e.g., other letters as: N, K ...,). To use this script, follow the example below:
-
-**Important:** This package only accepts sequence files in *Fasta* format as input to the methods.
-
-```sh
-To run the tool (Example): $ python3.7 preprocessing/preprocessing.py -i input -o output
-
-
-Where:
-
--h = help
-
--i = Input - Fasta format file, e.g., test.fasta
-
--o = output - Fasta format file, e.g., output.fasta
-```
-
-**Running:**
-
-```sh
-$ python3.7 preprocessing/preprocessing.py -i dataset.fasta -o preprocessing.fasta 
-```
-
-
 ## Numerical Mapping - Protein
 
 This method generates a numerical mapping of all sequence. Essentially, we provide 4 mappings (Protein). Nevertheless, this method will generate a vector with the size of the largest sequence. We developed a code that applies everything automatically. Therefore, it is necessary to pass all the classes/labels that will form the dataset. Thereby. to use this model, follow the example below:
