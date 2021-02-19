@@ -21,31 +21,6 @@
 
 <h1 align="center"></h1>
 
-## Preprocessing
-
-Before executing any method in this package, it is necessary to run a pre-processing script, to eliminate any noise from the sequences (e.g., other letters as: N, K ...,). To use this script, follow the example below:
-
-**Important:** This package only accepts sequence files in *Fasta* format as input to the methods.
-
-```sh
-To run the tool (Example): $ python3.7 preprocessing/preprocessing.py -i input -o output
-
-
-Where:
-
--h = help
-
--i = Input - Fasta format file, e.g., test.fasta
-
--o = output - Fasta format file, e.g., output.fasta
-```
-
-**Running:**
-
-```sh
-$ python3.7 preprocessing/preprocessing.py -i dataset.fasta -o preprocessing.fasta 
-```
-
 
 ## Xmer k-Spaced Ymer Composition Frequency (kGap).
 
