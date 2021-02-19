@@ -113,6 +113,7 @@ We proposed an open-source Python package called MathFeature, that implements fe
     - [Tripeptide composition (TPC)](extratech-protein.md)
     - [Basic k-mer](extratech-protein.md)
     - [Customizable k-mer](extratech-protein.md)
+    - [Xmer k-Spaced Ymer Composition Frequency (kGap)](kgap.md)
 
 ## Feature Selection
 
