@@ -21,12 +21,12 @@
 
 <h1 align="center"></h1>
 
-## Complex Networks - v2 - New Features ((Faster and without threshold)
+## Complex Networks - v2 - New Features (Faster and without threshold)
 
 This method generates features based on complex networks, see our pipeline in this [article](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2). To use this model, follow the example below:
 
 ```sh
-To run the tool (Example): $ python3.7 methods/ComplexNetworksClass.py -i input -o output -l label -k kmer
+To run the tool (Example): $ python3.7 methods/ComplexNetworksClass-v2.py -i input -o output -l label -k kmer
 
 
 Where:
@@ -45,7 +45,7 @@ Where:
 **Running:**
 
 ```sh
-$ python3.7 methods/ComplexNetworksClass.py -i sequences.fasta -o sequences.csv -l mRNA -k 3
+$ python3.7 methods/ComplexNetworksClass-v2.py -i sequences.fasta -o sequences.csv -l mRNA -k 3
 ```
 
 **Note** Input sequences for feature extraction must be in fasta format.
