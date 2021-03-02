@@ -45,8 +45,8 @@ Descriptors calculated by MathFeature for DNA, RNA, and Protein sequences.
 | **Entropy**           | Shannon                              | k          | DNA/RNA/Protein | [Ref 1](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2)           |
 |                       | Tsallis                              | k          | DNA/RNA/Protein | [Ref 1](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2)           |
 |                                                                                                                                                                              |
-| **Graphs**            | Complex Networks (Codons)            | 12 * t     | DNA/RNA/Protein | [Ref 1](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2) - [Ref 2](https://doi.org/10.1093/nar/gky462) |
-|                       | Complex Networks (different k-mers)  | 12 * t * k | DNA/RNA/Protein | [Ref 1](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2) - [Ref 2](https://doi.org/10.1093/nar/gky462) |
+| **Graphs**            | Complex Networks (with threshold)    | 12 * t     | DNA/RNA/Protein | [Ref 1](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2) - [Ref 2](https://doi.org/10.1093/nar/gky462) |
+|                       | Complex Networks (without threshold - v2) | 27 * k     | DNA/RNA/Protein | [Ref 1](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2) - [Ref 2](https://doi.org/10.1093/nar/gky462) |
 |                                                                                                                                                                              |
 |                       | Basic k-mer                          | 4^k        | DNA/RNA         | [Ref 1](https://www.biorxiv.org/content/10.1101/2020.06.08.140368v2)   | 
 |                       | Customizable k-mer                   | 4^k        | DNA/RNA         |                                                                                
