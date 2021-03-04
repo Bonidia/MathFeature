@@ -20,7 +20,7 @@ def header(file):
                    'closeness.{0}-mer,Burts_constraint.{0}-mer,count_multiple.{0}-mer,density.{0}-mer,'
                    'diameter.{0}-mer,eccentricity.{0}-mer,edge_betweenness.{0}-mer,'
                    'hub_score.{0}-mer,maxdegreetwo.{0}-mer,neighborhood_size.{0}-mer,radius.{0}-mer,'
-                   'avg_weighted_degree.{0}-mer,avg_transitivity_local.{0}-mer,number_vertices.{0}-mer,'.format(i))
+                   'avg_weighted_degree.{0}-mer,number_vertices.{0}-mer,'.format(i))
     file.write('label')
     file.write('\n')
     
@@ -51,7 +51,6 @@ def feature_extraction(thresholdCN):
     metrics.append(mean(thresholdCN.neighborhood_size()))  # For each vertex specified by vertices, returns the number of vertices reachable from that vertex in at most order steps
     metrics.append(thresholdCN.radius())  # Calculates the radius of the graph.
     metrics.append(mean(thresholdCN.strength()))  # Returns the strength (weighted degree) of some vertices from the graph.
-    metrics.append(mean(thresholdCN.transitivity_local_undirected(mode="zero")))  # Calculates the local transitivity (clustering coefficient) of the given vertices in the graph.
     metrics.append(cn.vcount())  # Counts the number of vertices.
     return
 
