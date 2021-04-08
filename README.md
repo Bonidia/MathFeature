@@ -17,6 +17,7 @@
   <a href="#installing-dependencies-and-package">Installing</a> •
   <a href="#list-of-descriptors">Descriptors</a> •
   <a href="#how-to-use">How To Use</a> •
+  <a href="#GUI">GUI</a> •
   <a href="#citation">Citation</a> 
 </p>
 
@@ -59,7 +60,7 @@ See: https://www.biorxiv.org/content/10.1101/2020.12.19.423610v1
 - SciPy
 
 
-## Installing dependencies and package
+## Installing dependencies and package - Option 1
 
 It is important to note that we consider that the Python language is installed. Otherwise, access [here](https://www.python.org/downloads/release/python-375/).
 
@@ -73,9 +74,15 @@ $ pip3 install -r requirements.txt
 $ apt-get -y install python3-igraph
 ```
 
-## Installing dependencies and package - Conda - terminal
+## Installing dependencies and package - Conda - terminal - Option 2
 
 Another way to install MathFeature is by using miniconda, e.g.:
+
+```sh
+$ git clone https://github.com/Bonidia/MathFeature.git MathFeature
+
+$ cd MathFeature
+```
 
 **1 - Install Miniconda:** 
 
@@ -109,7 +116,59 @@ conda activate mathfeature-terminal
 
 ```
 
-**- You can deactivate the environment, using:**
+**4 - You can deactivate the environment, using:**
+
+```sh
+
+conda deactivate
+
+```
+
+## Installing dependencies and package - Conda - GUI - Option 3
+
+Another way to install MathFeature is by using GUI, e.g.:
+
+```sh
+$ git clone https://github.com/Bonidia/MathFeature.git MathFeature
+
+$ cd MathFeature
+```
+
+**1 - Install Miniconda:** 
+
+```sh
+
+See documentation: https://docs.conda.io/en/latest/miniconda.html
+
+$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+$ chmod +x Miniconda3-latest-Linux-x86_64.sh
+
+$ ./Miniconda3-latest-Linux-x86_64.sh
+
+$ export PATH=~/miniconda/bin:$PATH
+
+```
+
+**2 - Create environment:**
+
+```sh
+
+conda env create -f mathfeature-gui.yml -n mathfeature-gui
+
+```
+
+**3 - Activate environment:**
+
+```sh
+
+conda activate mathfeature-gui
+
+python GUI/main.py
+
+```
+
+**4 - You can deactivate the environment, using:**
 
 ```sh
 
@@ -126,6 +185,13 @@ Descriptors calculated by MathFeature for DNA, RNA, and Protein sequences: [Clic
 We proposed an open-source Python package called MathFeature, that implements feature extraction approaches using mathematical features, including 20 descriptors organized into five categories. To our best knowledge, MathFeature is the first package that computes biological sequence features based on various mathematical descriptors. In this section, 5 feature extraction groups are available: **(1)** numerical mapping techniques, **(2)** numerical mapping techniques with Fourier transform, **(3)** techniques with game chaos, **(4)** techniques with Entropy, **(5)** techniques with complex networks. Moreover, we provide some additional scripts for feature extraction and preprocessing.
 
 See our [documentation](https://bonidia.github.io/MathFeature).
+
+## GUI
+
+<h1 align="center">
+  <img src="https://github.com/Bonidia/MathFeature/blob/master/img/math1.png" alt="MathFeature" width="350">
+</h1>
+
 
 ## Feature Selection
 
