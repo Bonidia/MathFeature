@@ -188,8 +188,12 @@ See our [documentation](https://bonidia.github.io/MathFeature).
 
 ## GUI
 
-<h1 align="center">
-  <img src="https://github.com/Bonidia/MathFeature/blob/master/img/math1.png" alt="MathFeature" width="350">
+<h1 align="left">
+  <img src="https://github.com/Bonidia/MathFeature/blob/master/img/math1.png" alt="MathFeature" width="650">
+</h1>
+
+<h1 align="left">
+  <img src="https://github.com/Bonidia/MathFeature/blob/master/img/math2.png" alt="MathFeature" width="650">
 </h1>
 
 
