@@ -14,7 +14,7 @@
   <a href="https://bonidia.github.io/MathFeature/">Documentation</a> •
   <a href="#list-of-files">List of files</a> •
   <a href="#dependencies">Dependencies</a> •
-  <a href="#installing-dependencies-and-package-option-1">
+  <a href="#installing-dependencies-and-package">Installing</a> •
   <a href="#list-of-descriptors">Descriptors</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#GUI">GUI</a> •
@@ -60,7 +60,9 @@ See: https://www.biorxiv.org/content/10.1101/2020.12.19.423610v1
 - SciPy
 
 
-## Installing dependencies and package - Option 1
+## Installing dependencies and package
+
+## Option 1
 
 It is important to note that we consider that the Python language is installed. Otherwise, access [here](https://www.python.org/downloads/release/python-375/).
 
@@ -74,7 +76,7 @@ $ pip3 install -r requirements.txt
 $ apt-get -y install python3-igraph
 ```
 
-## Installing dependencies and package - Conda - terminal - Option 2
+## Conda - terminal - Option 2
 
 Another way to install MathFeature is by using miniconda, e.g.:
 
@@ -124,7 +126,7 @@ conda deactivate
 
 ```
 
-## Installing dependencies and package - Conda - GUI - Option 3
+## Conda - GUI - Option 3
 
 Another way to install MathFeature is by using GUI, e.g.:
 
