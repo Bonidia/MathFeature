@@ -78,7 +78,7 @@ $ apt-get -y install python3-igraph
 Another way to install MathFeature is by using miniconda, e.g.:
 
 ```sh
-1 - Install Miniconda: 
+**1 - Install Miniconda:** 
 
 See documentation: https://docs.conda.io/en/latest/miniconda.html
 
