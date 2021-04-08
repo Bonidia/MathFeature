@@ -62,7 +62,7 @@ See: https://www.biorxiv.org/content/10.1101/2020.12.19.423610v1
 
 ## Installing dependencies and package
 
-## Option 1
+## Terminal - Option 1
 
 It is important to note that we consider that the Python language is installed. Otherwise, access [here](https://www.python.org/downloads/release/python-375/).
 
@@ -76,7 +76,7 @@ $ pip3 install -r requirements.txt
 $ apt-get -y install python3-igraph
 ```
 
-## Conda - terminal - Option 2
+## Conda - Terminal - Option 2
 
 Another way to install MathFeature is by using miniconda, e.g.:
 
