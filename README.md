@@ -77,8 +77,9 @@ $ apt-get -y install python3-igraph
 
 Another way to install MathFeature is by using miniconda, e.g.:
 
-```sh
 **1 - Install Miniconda:** 
+
+```sh
 
 See documentation: https://docs.conda.io/en/latest/miniconda.html
 
@@ -90,11 +91,30 @@ $ ./Miniconda3-latest-Linux-x86_64.sh
 
 $ export PATH=~/miniconda/bin:$PATH
 
-2 - Create environment: conda env create -f mathfeature-terminal.yml -n mathfeature-terminal
+```
 
-3 - Activate environment: conda activate mathfeature-terminal
+**2 - Create environment:**
 
-4 - You can deactivate the environment, using: conda deactivate
+```sh
+
+conda env create -f mathfeature-terminal.yml -n mathfeature-terminal
+
+```
+
+**3 - Activate environment:**
+
+```sh
+
+conda activate mathfeature-terminal
+
+```
+
+**- You can deactivate the environment, using:**
+
+```sh
+
+conda deactivate
+
 ```
 
 ## List of Descriptors
