@@ -14,7 +14,7 @@
   <a href="https://bonidia.github.io/MathFeature/">Documentation</a> •
   <a href="#list-of-files">List of files</a> •
   <a href="#dependencies">Dependencies</a> •
-  <a href="#installing-dependencies-and-package">Installing</a> •
+  <a href="#installing-dependencies-and-package-option-1">
   <a href="#list-of-descriptors">Descriptors</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#GUI">GUI</a> •
