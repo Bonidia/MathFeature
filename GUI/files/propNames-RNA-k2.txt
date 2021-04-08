@@ -1,0 +1,11 @@
+Shift
+Slide
+Rise
+Tilt
+Roll
+Twist
+Stacking energy
+Enthalpy
+Entropy
+Free energy
+Hydrophilicity

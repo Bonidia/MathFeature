@@ -1,0 +1,90 @@
+Base stacking
+Protein induced deformability
+B-DNA twist
+Dinucleotide GC Content
+A-philicity
+Propeller twist
+Duplex stability-free energy
+Duplex stability-disrupt energy
+DNA denaturation
+Bending stiffness
+Protein DNA twist
+Stabilising energy of Z-DNA
+Aida_BA_transition
+Breslauer_dG
+Breslauer_dH
+Breslauer_dS
+Electron_interaction
+Hartman_trans_free_energy
+Helix-Coil_transition
+Ivanov_BA_transition
+Lisser_BZ_transition
+Polar_interaction
+SantaLucia_dG
+SantaLucia_dH
+SantaLucia_dS
+Sarai_flexibility
+Stability
+Stacking_energy
+Sugimoto_dG
+Sugimoto_dH
+Sugimoto_dS
+Watson-Crick_interaction
+Twist
+Tilt
+Roll
+Shift
+Slide
+Rise
+Stacking energy
+Bend
+Tip
+Inclination
+Major Groove Width
+Major Groove Depth
+Major Groove Size
+Major Groove Distance
+Minor Groove Width
+Minor Groove Depth
+Minor Groove Size
+Minor Groove Distance
+Persistance Length
+Melting Temperature
+Mobility to bend towards major groove
+Mobility to bend towards minor groove
+Propeller Twist
+Clash Strength
+Enthalpy
+Free energy
+Twist_twist
+Tilt_tilt
+Roll_roll
+Twist_tilt
+Twist_roll
+Tilt_roll
+Shift_shift
+Slide_slide
+Rise_rise
+Shift_slide
+Shift_rise
+Slide_rise
+Twist_shift
+Twist_slide
+Twist_rise
+Tilt_shift
+Tilt_slide
+Tilt_rise
+Roll_shift
+Roll_slide
+Roll_rise
+Slide stiffness
+Shift stiffness
+Roll stiffness
+Rise stiffness
+Tilt stiffness
+Twist stiffness
+Wedge
+Direction
+Flexibility_slide
+Flexibility_shift
+Entropy
