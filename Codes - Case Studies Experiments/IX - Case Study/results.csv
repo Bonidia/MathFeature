@@ -1,0 +1,5 @@
+Tool,Classifier,ACC,std_ACC,MCC,std_MCC,AUC,std_AUC,BACC,std_BACC,kappa,std_kappa,gmean,std_gmean
+MathFeature,RandomForest,0.8576,0.03,0.6797,0.07,0.9252,0.02,0.8222,0.04,0.6709,0.07,0.8127,0.04
+Seq2Feature,RandomForest,0.7197,0.03,0.3723,0.06,0.7637,0.04,0.6836,0.03,0.3710,0.06,0.6729,0.03
+PyFeat,RandomForest,0.7842,0.03,0.5064,0.05,0.8589,0.02,0.7361,0.03,0.4968,0.05,0.7183,0.03
+MathFeature-CGR+Seq2Feature,RandomForest,0.8627,0.03,0.6927,0.06,0.9332,0.02,0.8379,0.03,0.6892,0.06,0.8329,0.04

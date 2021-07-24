@@ -1,0 +1,14 @@
+Classifier,ACC,std_ACC,SE,std_SE,F1,std_F1,BACC,std_BACC,kappa,std_kappa,gmean,std_gmean
+RandomForest,1.0000,0.00,1.0000,0.00,1.0000,0.00,1.0000,0.00,1.0000,0.00,1.0000,0.00
+Classifier,ACC,std_ACC,SE,std_SE,F1,std_F1,BACC,std_BACC,kappa,std_kappa,gmean,std_gmean
+RandomForest,1.0000,0.00,0.9992,0.00,0.9996,0.00,0.9996,0.00,0.9996,0.00,0.9996,0.00
+Classifier,ACC,std_ACC,SE,std_SE,F1,std_F1,BACC,std_BACC,kappa,std_kappa,gmean,std_gmean
+RandomForest,1.0000,0.00,1.0000,0.00,1.0000,0.00,1.0000,0.00,1.0000,0.00,1.0000,0.00
+Classifier,ACC,std_ACC,SE,std_SE,F1,std_F1,BACC,std_BACC,kappa,std_kappa,gmean,std_gmean
+RandomForest,0.9992,0.00,0.9934,0.00,0.9959,0.00,0.9966,0.00,0.9954,0.00,0.9966,0.00
+Classifier,ACC,std_ACC,SE,std_SE,F1,std_F1,BACC,std_BACC,kappa,std_kappa,gmean,std_gmean
+RandomForest,0.9992,0.00,0.9934,0.00,0.9959,0.00,0.9966,0.00,0.9954,0.00,0.9966,0.00
+Classifier,ACC,std_ACC,SE,std_SE,F1,std_F1,BACC,std_BACC,kappa,std_kappa,gmean,std_gmean
+RandomForest,0.9993,0.00,0.9942,0.00,0.9963,0.00,0.9970,0.00,0.9959,0.00,0.9970,0.00
+Classifier,ACC,std_ACC,SE,std_SE,F1,std_F1,BACC,std_BACC,kappa,std_kappa,gmean,std_gmean
+RandomForest,0.9992,0.00,0.9934,0.00,0.9959,0.00,0.9966,0.00,0.9954,0.00,0.9966,0.00

@@ -1,0 +1,2 @@
+Classifier,ACC,std_ACC,MCC,std_MCC,F1,std_F1,BACC,std_BACC,kappa,std_kappa,gmean,std_gmean
+SVM,0.8594,0.01,0.6852,0.02,0.7872,0.01,0.8346,0.01,0.6825,0.02,0.8301,0.02
