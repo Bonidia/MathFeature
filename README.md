@@ -62,6 +62,46 @@ See: https://www.biorxiv.org/content/10.1101/2020.12.19.423610v1
 
 ## Installing dependencies and package
 
+## Docker Image - Main Option - Terminal 
+
+It is important to note that we consider that the Docker is installed.
+
+Docker commands - Examples
+
+1 - https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf
+2 - https://dockerlabs.collabnix.com/docker/cheatsheet/
+3 - https://github.com/wsargent/docker-cheat-sheet
+
+```sh
+$ docker pull bio21061993/mathfeature:latest
+
+$ docker run -it --name mathfeature-terminal bio21061993/mathfeature bash
+
+$ cd MathFeature/
+
+$ conda activate mathfeature-terminal
+
+$ Run the desired scripts - See Documentation
+```
+
+## Docker Image - Main Option - GUI
+
+```sh
+$ docker pull bio21061993/mathfeature:latest
+
+$ xhost local:root
+
+$ docker run -it --name mathfeature-gui --net=host --env="DISPLAY" -v /root:/root bio21061993/mathfeature
+
+$ cd MathFeature/
+
+$ conda activate mathfeature-gui-v1 or source activate mathfeature-gui-v1
+
+$ python GUI/main.py
+
+$ Run the desired scripts - See Documentation
+```
+
 ## Terminal - Option 1
 
 It is important to note that we consider that the Python language is installed. Otherwise, access [here](https://www.python.org/downloads/release/python-375/).
