@@ -69,7 +69,9 @@ It is important to note that we consider that the Docker is installed.
 Docker commands - Examples
 
 1 - https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf
+
 2 - https://dockerlabs.collabnix.com/docker/cheatsheet/
+
 3 - https://github.com/wsargent/docker-cheat-sheet
 
 ```sh
