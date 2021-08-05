@@ -62,6 +62,8 @@ See: https://www.biorxiv.org/content/10.1101/2020.12.19.423610v1
 
 ## Installing dependencies and package
 
+MathFeature can be run on the console, but we also provide a GUI-based platform.
+
 ## Docker Image - Terminal - MathFeature v1.0
 
 It is important to note that we consider that the Docker is installed.
