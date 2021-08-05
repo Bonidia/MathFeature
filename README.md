@@ -62,7 +62,7 @@ See: https://www.biorxiv.org/content/10.1101/2020.12.19.423610v1
 
 ## Installing dependencies and package
 
-## Docker Image - Main Option - Terminal 
+## Docker Image - Terminal - MathFeature v1.0
 
 It is important to note that we consider that the Docker is installed.
 
@@ -86,12 +86,10 @@ $ conda activate mathfeature-terminal
 $ Run the desired scripts - See Documentation
 ```
 
-## Docker Image - Main Option - GUI
+## Docker Image - GUI - MathFeature v1.0
 
 ```sh
 $ docker pull bio21061993/mathfeature:latest
-
-$ xhost local:root
 
 $ docker run -it --name mathfeature-gui --net=host --env="DISPLAY" -v /root:/root bio21061993/mathfeature
 
