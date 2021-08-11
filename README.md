@@ -60,7 +60,7 @@ See: https://www.biorxiv.org/content/10.1101/2020.12.19.423610v1
 - SciPy
 
 
-## Installing dependencies and package - Option 1
+## Installing dependencies and package
 
 MathFeature can be run on the console, but we also provide a GUI-based platform.
 
