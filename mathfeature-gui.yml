@@ -33,7 +33,6 @@ dependencies:
   - gst-plugins-base=1.14.5
   - gstreamer=1.14.5
   - gtk2=2.24.32
-  - gtk3=3.24.23
   - harfbuzz=2.7.2
   - hicolor-icon-theme=0.17
   - icu=67.1
