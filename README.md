@@ -107,8 +107,6 @@ $ For Linux: docker run -it --name mathfeature-gui --net=host --env="DISPLAY" -v
 
 $ For Mac: docker run -it --name mathfeature-gui -e DISPLAY=$IP:0 -v /tmp/.X11-unix:/tmp/.X11-unix bio21061993/mathfeature-gui
 
-$ For Windows:
-
 $ git clone https://github.com/Bonidia/MathFeature.git MathFeature
 
 $ cd MathFeature/
