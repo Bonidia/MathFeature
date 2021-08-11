@@ -87,23 +87,37 @@ $ conda activate mathfeature-terminal
 $ Run the desired scripts - See Documentation
 ```
 
-## Docker Image - GUI - MathFeature v1.0
+## Docker Image - GUI - MathFeature - Option 1
+
+Docker commands - Examples - Running GUI applications using Docker 
+
+1 - https://betterprogramming.pub/running-desktop-apps-in-docker-43a70a5265c4
+
+2 - https://medium.com/@SaravSun/running-gui-applications-inside-docker-containers-83d65c0db110
+
+3 - https://sourabhbajaj.com/blog/2017/02/07/gui-applications-docker-mac/
+
+4 - https://www.cloudsavvyit.com/10520/how-to-run-gui-applications-in-a-docker-container/
 
 ```sh
-$ docker pull bio21061993/mathfeature:latest
+$ docker pull bio21061993/mathfeature-gui
 
-$ docker run -it --name mathfeature-gui --net=host --env="DISPLAY" -v /root:/root bio21061993/mathfeature
+$ For Linux: docker run -it --name mathfeature-gui --net=host --env="DISPLAY" -v /root:/root --volume="$HOME/.Xauthority:/root/.Xauthority:rw" bio21061993/mathfeature-gui
+
+$ For Mac: docker run -it --name mathfeature-gui -e DISPLAY=$IP:0 -v /tmp/.X11-unix:/tmp/.X11-unix bio21061993/mathfeature-gui
+
+$ git clone https://github.com/Bonidia/MathFeature.git MathFeature
 
 $ cd MathFeature/
 
-$ conda activate mathfeature-gui-v1 or source activate mathfeature-gui-v1
+$ conda activate mathfeature-gui or source activate mathfeature-gui
 
 $ python GUI/main.py
 
 $ Run the desired scripts - See Documentation
 ```
 
-## Terminal - Option 1
+## Terminal - Option 2
 
 It is important to note that we consider that the Python language is installed. Otherwise, access [here](https://www.python.org/downloads/release/python-375/).
 
@@ -117,7 +131,7 @@ $ pip3 install -r requirements.txt
 $ apt-get -y install python3-igraph
 ```
 
-## Conda - Terminal - Option 2
+## Conda - Terminal - Option 3
 
 Another way to install MathFeature is by using miniconda, e.g.:
 
@@ -167,7 +181,7 @@ conda deactivate
 
 ```
 
-## Conda - GUI - Option 3
+## Conda - GUI - Option 4
 
 Another way to install MathFeature is by using GUI, e.g.:
 
