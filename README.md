@@ -103,7 +103,7 @@ Docker commands - Examples - Running GUI applications using Docker
 ```sh
 $ docker pull bio21061993/mathfeature-gui
 
-$ For Linux: docker run -it --name mathfeature-gui --net=host --env="DISPLAY" -v /root:/root --volume="$HOME/.Xauthority:/root/.Xauthority:rw" bio21061993/mathfeature-gui
+$ For Linux: sudo docker run -it --name mathfeature-gui --net=host --env="DISPLAY" -v /root:/root --volume="$HOME/.Xauthority:/root/.Xauthority:rw" bio21061993/mathfeature-gui
 
 $ For Mac: docker run -it --name mathfeature-gui -e DISPLAY=$IP:0 -v /tmp/.X11-unix:/tmp/.X11-unix bio21061993/mathfeature-gui
 
