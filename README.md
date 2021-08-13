@@ -111,6 +111,8 @@ $ git clone https://github.com/Bonidia/MathFeature.git MathFeature
 
 $ cd MathFeature/
 
+$ export PATH=/home/miniconda3/bin:$PATH
+
 $ conda activate mathfeature-gui or source activate mathfeature-gui
 
 $ python GUI/main.py
@@ -182,7 +184,7 @@ conda deactivate
 
 ```
 
-## Conda - GUI - Option 4
+## Conda - GUI - Option 4 - Linux
 
 Another way to install MathFeature is by using GUI, e.g.:
 
@@ -205,6 +207,8 @@ $ chmod +x Miniconda3-latest-Linux-x86_64.sh
 $ ./Miniconda3-latest-Linux-x86_64.sh
 
 $ export PATH=~/miniconda/bin:$PATH
+
+$ apt-get install libgtk-3-dev
 
 ```
 
