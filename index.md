@@ -248,6 +248,7 @@ Descriptors calculated by MathFeature for DNA, RNA, and Protein sequences: [Clic
 We proposed an open-source Python package called MathFeature, that implements feature extraction approaches using mathematical features, including 20 descriptors organized into five categories. To our best knowledge, MathFeature is the first package that computes biological sequence features based on various mathematical descriptors. In this section, **5** feature extraction groups are available: **(1)** numerical mapping techniques, **(2)** numerical mapping techniques with Fourier transform, **(3)** techniques with game chaos, **(4)** techniques with Entropy, **(5)** techniques with complex networks. Furthermore, we provide additional scripts for feature extraction and preprocessing.
 
 - [Preprocessing](preprocessing.md)
+- [Concatenate datasets/descriptors](preprocessing.md)
 - [Numerical Mapping - DNA/RNA](mapping.md)
     - [Binary](mapping.md)
     - [Z-curve](mapping.md)
