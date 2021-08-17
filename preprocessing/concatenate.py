@@ -22,7 +22,10 @@ def check_files():
 
 
 def concatenate():
-	dataframes = pd.concat([pd.read_csv(f) for f in dataset_names])
+	dataframes = pd.concat([pd.read_csv(f) for f in dataset_names], axis=1)
+	dataframes = dataframes.loc[:, ~dataframes.columns.duplicated()]
+	label = dataframes.pop('label')
+	dataframes.insert(len(dataframes.columns), 'label', label)
 	dataframes.to_csv(foutput, index=False)
 	print("The files were concatenate")
 
