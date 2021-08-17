@@ -22,6 +22,33 @@
 <h1 align="center"></h1>
 
 
+
+## Script: Concatenate datasets/descriptors
+
+Concatenate datasets/descriptors. To use this script, follow the example below:
+
+**Important:** *CSV* format as input to the method.
+
+```sh
+To run the tool (Example): $ python3.7 preprocessing/concatenate.py -n number of datasets/files -o output
+
+
+Where:
+
+-h = help
+
+-n = Input - number of datasets/files, e.g., orf.csv, entropy.csv
+
+-o = output - Fasta format file, e.g., output.csv
+```
+
+**Running:**
+
+```sh
+$ python3.7 preprocessing/concatenate.py -n 2 -o hybrid_dataset.csv 
+```
+
+
 ## Script: Preprocessing
 
 To eliminate any noise from the sequences (e.g., other letters as: N, K ...,). To use this script, follow the example below:
