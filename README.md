@@ -92,13 +92,15 @@ $ Run the desired scripts - See Documentation
 
 Docker commands - Examples - Running GUI applications using Docker 
 
-1 - https://betterprogramming.pub/running-desktop-apps-in-docker-43a70a5265c4
+1 - https://cuneyt.aliustaoglu.biz/en/running-gui-applications-in-docker-on-windows-linux-mac-hosts/
 
-2 - https://medium.com/@SaravSun/running-gui-applications-inside-docker-containers-83d65c0db110
+2 - https://betterprogramming.pub/running-desktop-apps-in-docker-43a70a5265c4
 
-3 - https://sourabhbajaj.com/blog/2017/02/07/gui-applications-docker-mac/
+3 - https://medium.com/@SaravSun/running-gui-applications-inside-docker-containers-83d65c0db110
 
-4 - https://www.cloudsavvyit.com/10520/how-to-run-gui-applications-in-a-docker-container/
+4 - https://sourabhbajaj.com/blog/2017/02/07/gui-applications-docker-mac/
+
+5 - https://www.cloudsavvyit.com/10520/how-to-run-gui-applications-in-a-docker-container/
 
 ```sh
 $ docker pull bio21061993/mathfeature-gui
