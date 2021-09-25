@@ -157,7 +157,7 @@ $ chmod +x Miniconda3-latest-Linux-x86_64.sh
 
 $ ./Miniconda3-latest-Linux-x86_64.sh
 
-$ export PATH=~/miniconda/bin:$PATH
+$ export PATH=~/miniconda3/bin:$PATH
 
 ```
 
@@ -207,7 +207,7 @@ $ chmod +x Miniconda3-latest-Linux-x86_64.sh
 
 $ ./Miniconda3-latest-Linux-x86_64.sh
 
-$ export PATH=~/miniconda/bin:$PATH
+$ export PATH=~/miniconda3/bin:$PATH
 
 $ apt-get install libgtk-3-dev
 
