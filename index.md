@@ -10,9 +10,10 @@
 <h4 align="center">Feature Extraction Package for Biological Sequences Based on Mathematical Descriptors</h4>
 
 <p align="center">
-  <a href="https://bonidia.github.io/MathFeature/">Home</a> •
+  <a href="https://github.com/Bonidia/MathFeature">Home</a> •
+  <a href="https://bonidia.github.io/MathFeature/">Documentation</a> •
   <a href="http://mathfeature.icmc.usp.br/">Web Server</a> •
-  <a href="#authors">Key Features</a> •
+  <a href="https://github.com/Bonidia/MathFeature-WebServer">Web Server - LocalHost</a> •
   <a href="#list-of-files">List of files</a> •
   <a href="#dependencies">Dependencies</a> •
   <a href="#installing-dependencies-and-package">Installing</a> •
@@ -26,7 +27,9 @@
 
 ## Update news!!!
 
-MathFeature - Now available on Web Server - Access on http://mathfeature.icmc.usp.br/ - 2021-09-30
+**MathFeature** - Now available on Web Server - Access on http://mathfeature.icmc.usp.br/ - 2021-09-30
+
+**Web Server** - To work on your machine or network - Access on https://github.com/Bonidia/MathFeature-WebServer - 2021-11-05
 
 ## Abstract
 
