@@ -25,7 +25,7 @@
 
 <h1 align="center"></h1>
 
-## Update news!!!
+## Update news!!!!
 
 **MathFeature** - Now available on Web Server - Access on http://mathfeature.icmc.usp.br/ - 2021-09-30
 
