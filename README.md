@@ -89,7 +89,9 @@ $ docker pull bio21061993/mathfeature:latest
 
 $ docker run -it --name mathfeature-terminal bio21061993/mathfeature bash
 
-$ cd MathFeature/
+$ git clone https://github.com/Bonidia/MathFeature.git MathFeature-Terminal
+
+$ cd MathFeature-Terminal
 
 $ conda activate mathfeature-terminal
 
