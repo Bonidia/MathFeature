@@ -27,6 +27,8 @@
 
 ## Update news!!!
 
+**We will soon launch MathFeature 2.0** - 2025-01-03
+
 **BioAutoML** - New Descriptors - Access on https://github.com/Bonidia/BioAutoML - 2023-03-30
 
 **MathFeature** - Now available on Web Server - Access on http://mathfeature.icmc.usp.br/ - 2021-09-30
