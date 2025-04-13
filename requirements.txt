@@ -1,5 +1,10 @@
-biopython==1.75
-numpy==1.17.4
-pandas==0.25.3
-scipy==1.4.1
-python-igraph==0.8.2
+biopython==1.85
+igraph==0.11.8
+numpy==2.2.4
+pandas==2.2.3
+python-dateutil==2.9.0.post0
+pytz==2025.2
+scipy==1.15.2
+six==1.17.0
+texttable==1.7.0
+tzdata==2025.2
