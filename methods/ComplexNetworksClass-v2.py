@@ -26,7 +26,7 @@ def header(file):
     
 
 def feature_extraction(thresholdCN):
-    metrics.append(mean(thresholdCN.betweenness(directed=False, weights=None, nobigint=True)))
+    metrics.append(mean(thresholdCN.betweenness(directed=False, weights=None)))
     metrics.append(mean(thresholdCN.degree()))
     metrics.append(thresholdCN.assortativity_degree(directed=False))  # Returns the assortativity
     metrics.append(max(thresholdCN.degree()))

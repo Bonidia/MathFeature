@@ -64,9 +64,9 @@ Robson P Bonidia, Douglas S Domingues, Danilo S Sanches, André C P L F de Carva
 
 ## Dependencies
 
-- Python (>=3.7.3)
+- Python (>= 3.11.0)
 - Biopython
-- Igraph
+- igraph
 - NumPy 
 - Pandas
 - SciPy
