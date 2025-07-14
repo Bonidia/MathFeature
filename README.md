@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/status-up-brightgreen)
 
 <h1 align="center">
-  <img src="https://github.com/Bonidia/MathFeature/blob/master/img/MathFeature.png" alt="MathFeature" width="350">
+  <img src="https://github.com/Bonidia/MathFeature/blob/master/img/math3.png" alt="MathFeature" width="350">
 </h1>
 
 <h4 align="center">Feature Extraction Package for Biological Sequences Based on Mathematical Descriptors</h4>
